@@ -1,0 +1,9 @@
+idautils.Functions(start_addr, end_addr)
+
+example::
+
+for f in idautils.FUnctions():
+	print hex(f), idc.GetFunctionName(f)
+
+
+## idc.GetFunctionName :::
